@@ -1,4 +1,4 @@
-#ToolbitSDK Ruby Library
+# ToolbitSDK Ruby Library
 ====
 
 ## Introduction
