@@ -1,35 +1,5 @@
-ToolbitSDK Ruby Library
+#ToolbitSDK Ruby Library
 ====
-
-## Descripton
-
-Build library of Toolbit Interface for Ruby.
-
-
-## Require
-
-Ruby
-  32bit version is recommended
-
-swig
-  http://www.swig.org/
-
-
-## Build
-
-    cd swig
-    ./build.sh
-tbi.so will be created and copied to ../samples folder
-
-
-## Test
-
-    cd ../samples
-    ruby chopper_test.rb
-    ruby luke_test.rb
-
-
-
 
 ## Introduction
 
@@ -51,11 +21,11 @@ puts sprintf("%.3f [mA]", 1000.0 * luke.getCurrent())
 ### Windows
 
 * MinGW and MSYS2 environment is needed
-** http://www.msys2.org/
+* http://www.msys2.org/
 * RubyInstaller for windows 32bit version is recommended
-** Ruby 2.4.1-1 (x86) is verified
+* Ruby 2.4.1-1 (x86) is verified
 * 64bit version is not verified
-** Install "MSYS2 and MINGW development toolchain"
+* Install "MSYS2 and MINGW development toolchain"
 
 Launch MSYS2 and install swig if you don't  have it
 ```
