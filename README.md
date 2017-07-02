@@ -1,5 +1,4 @@
 # ToolbitSDK Ruby Library
-====
 
 ## Introduction
 
@@ -50,19 +49,3 @@ $ ./luke_test.rb
 0.000 [V]
 0.000 [mA]
 ```
-
-
-
-Linux
-swig is required
-$ git clone https://github.com/toolbitorg/ToolbitSDK.git
-$ cd ToolbitSDK/bindings/ruby/src
-$ ./build.sh
-tbi.so is built and copied to ../samples. Now you can test it with Luke as follows as
-$ cd ../samples
-$ ./luke_test.rb
-0.000 [V]
-0.000 [mA]
-
-
-
